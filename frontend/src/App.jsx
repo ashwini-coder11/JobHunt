@@ -29,18 +29,18 @@ const appRouter = createBrowserRouter([
     path: '/signup',
     element: <Signup />
   },
-  // {
-  //   path: "/jobs",
-  //   element: <Jobs />
-  // },
+  {
+    path: "/jobs",
+    element: <Jobs />
+  },
   // {
   //   path: "/description/:id",
   //   element: <JobDescription />
   // },
-  // {
-  //   path: "/browse",
-  //   element: <Browse />
-  // },
+  {
+    path: "/browse",
+    element: <Browse />
+  },
   // {
   //   path: "/profile",
   //   element: <Profile />
