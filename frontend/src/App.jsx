@@ -33,10 +33,10 @@ const appRouter = createBrowserRouter([
     path: "/jobs",
     element: <Jobs />
   },
-  // {
-  //   path: "/description/:id",
-  //   element: <JobDescription />
-  // },
+  {
+    path: "/description/:id",
+    element: <JobDescription />
+  },
   {
     path: "/browse",
     element: <Browse />
